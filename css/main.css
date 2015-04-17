@@ -45,7 +45,7 @@ h2 {
 nav {
 	font-family: 'Helvetica', sans-serif;
 	font-weight: lighter;
-	font-size: 1.4rem;
+	font-size: 0.9rem;
 }
 
 nav ul {
@@ -58,13 +58,13 @@ nav ul {
 
 nav li {
 	float: left;
-	width: 33.3%;
+	width: 25%;
 	padding: 0.4em;
 }
 
 nav a {
 	display: block;
-	padding: 0.8em 0.5em 0.8em;
+	padding: 1.25em;
 	background-color: #595f45;
 	border-radius: 25px;
 	color: #fff;
@@ -76,10 +76,19 @@ nav a:hover {
   color: #fff;
 }
 
-p {
+.intro {
 	font-family: 'Helvetica', sans-serif;
 	font-weight: lighter;
-	font-size: 1em;
+	color: #fff;
+	font-size: 1.1em;
 	padding-left: 2em;
 	padding-right: 2em;
+	padding-bottom: 3em;
+	padding-top: 3em;
+	background-color: #3d492d;
+}
+
+.wood {
+	padding: calc(0.5em + 20vw) 0 0;
+	background: url("../images/wood.jpg") center center / cover no-repeat;
 }
