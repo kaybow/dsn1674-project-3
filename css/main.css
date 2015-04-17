@@ -57,8 +57,7 @@ nav ul {
 }
 
 nav li {
-	float: left;
-	width: 25%;
+	display: inline-block;
 	padding: 0.4em;
 }
 
@@ -69,6 +68,7 @@ nav a {
 	border-radius: 25px;
 	color: #fff;
 	text-decoration: none;
+	width: 11em;
 }
 
 nav a:hover {
@@ -85,7 +85,7 @@ nav a:hover {
 	padding-right: 2em;
 	padding-bottom: 3em;
 	padding-top: 3em;
-	background-color: #3d492d;
+	background-color: rgba(61, 73, 45, 0.6);
 }
 
 .wood {
