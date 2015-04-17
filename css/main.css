@@ -91,7 +91,7 @@ nav a {
 	width: 11em;
 }
 
-nav a:hover {
+a:hover {
   background-color: #3d492d;
   color: #fff;
 }
@@ -106,6 +106,7 @@ nav a:hover {
 	padding-bottom: 3em;
 	padding-top: 3em;
 	background-color: rgba(61, 73, 45, 0.6);
+	margin: 0;
 }
 
 .wood {
@@ -121,7 +122,7 @@ nav a:hover {
 .app, .food, .cake, .beer {
 	width: 50%;
 	margin: 0;
-	padding: 0;
+	position: relative;
 }
 
 .app {
@@ -131,3 +132,35 @@ nav a:hover {
 .food {
 	float: right;
 }
+
+.cake {
+	float: left;
+}
+
+.beer {
+	float: right;
+}
+
+.btn, .foot {
+	font-family: 'Helvetica', sans-serif;
+	background-color: #595f45;
+	color: #fff;
+	position: absolute;
+	padding: 1em;
+	border-radius: 25px;
+	color: #fff;
+	text-decoration: none;
+	left: 50%;
+	transform: translateX(-50%);
+
+}
+
+.btn {
+	bottom: 25px;
+}
+
+footer {
+	padding: 4em;
+	background: url("../images/wood.jpg") center center / cover no-repeat;
+}
+
