@@ -119,7 +119,7 @@ a:hover {
 	padding: 0;
 }
 
-.app, .food, .cake, .beer {
+.app, .food, .cake, .beer, .pub, .friends, .livemusic {
 	width: 50%;
 	margin: 0;
 	position: relative;
@@ -161,12 +161,6 @@ a:hover {
 
 .special {
 overflow: hidden;
-}
-
-.friends, .livemusic {
-	width: 50%;
-	margin: 0;
-	position: relative;
 }
 
 .friends {
