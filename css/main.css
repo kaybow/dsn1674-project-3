@@ -159,6 +159,24 @@ a:hover {
 	bottom: 25px;
 }
 
+.special {
+padding: 0;
+}
+
+.friends, .livemusic {
+	width: 50%;
+	margin: 0;
+	position: relative;
+}
+
+.friends {
+	float: left;
+}
+
+.livemusic {
+	float: right;
+}
+
 footer {
 	padding: 4em;
 	background: url("../images/wood.jpg") center center / cover no-repeat;
