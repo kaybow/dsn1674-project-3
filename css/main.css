@@ -25,6 +25,17 @@ header {
 	margin-bottom: 0;
 }
 
+.cross {
+	width: 10em;
+	float: left;
+	position: relative;
+	margin-left: 2em;
+}
+
+.cross-2 {
+	width: 2em;
+}
+
 h1, h2 {
 	color: #fff;
 	text-align: center;
