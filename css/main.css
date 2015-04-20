@@ -125,19 +125,11 @@ a:hover {
 	position: relative;
 }
 
-.app {
+.app, .cake {
 	float: left;
 }
 
-.food {
-	float: right;
-}
-
-.cake {
-	float: left;
-}
-
-.beer {
+.food, .beer {
 	float: right;
 }
 
@@ -171,12 +163,18 @@ overflow: hidden;
 	float: right;
 }
 
+.us {
+	overflow: hidden;
+}
+
 figcaption {
 	font-family: 'Helvetica', sans-serif;
 	font-weight: lighter;
 	font-size: 0.9em;
-	color: #fff;
+	color: black;
+	background-color: #fff;
 	padding: 1em;
+	padding-bottom: 1.5em;
 }
 
 footer {
