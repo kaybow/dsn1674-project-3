@@ -32,10 +32,6 @@ header {
 	margin-left: 2em;
 }
 
-.cross-2 {
-	width: 2em;
-}
-
 h1, h2 {
 	color: #fff;
 	text-align: center;
@@ -51,6 +47,18 @@ h2 {
 	font-weight: lighter;
 	font-size: 2.2em;
 	margin-top: 0;
+}
+
+.voted {
+	margin: 0;
+	padding-bottom: 3em;
+	font-size: 3em;
+	font-weight: normal;
+}
+
+.banner {
+	padding: calc(0.5em + 20vw) 0 0;
+	background: url("../images/banner.jpg") center center / cover no-repeat;
 }
 
 h3, h4 {
@@ -125,6 +133,8 @@ a:hover {
 	background: url("../images/wood.jpg") center center / cover no-repeat;
 }
 
+
+
 .wings {
 	margin: 0;
 	padding: 0;
@@ -155,7 +165,6 @@ a:hover {
 	text-decoration: none;
 	left: 50%;
 	transform: translateX(-50%);
-
 }
 
 .btn {
@@ -164,6 +173,7 @@ a:hover {
 
 .special {
 overflow: hidden;
+clear: both;
 }
 
 .friends {
