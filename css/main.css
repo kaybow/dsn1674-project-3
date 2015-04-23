@@ -136,13 +136,12 @@ a:hover {
 }
 
 
-
 .wings {
 	margin: 0;
 	padding: 0;
 }
 
-.app, .food, .cake, .beer, .pub, .friends, .livemusic {
+.app, .food, .cake, .beer, .pub, .friends, .livemusic, .map {
 	width: 50%;
 	margin: 0;
 	position: relative;
@@ -184,6 +183,10 @@ clear: both;
 
 .us {
 	overflow: hidden;
+}
+
+.map {
+	float: right;
 }
 
 figcaption {
