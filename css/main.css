@@ -141,17 +141,17 @@ a:hover {
 	padding: 0;
 }
 
-.app, .food, .cake, .beer, .pub, .friends, .livemusic, .map, .hours {
+.app, .food, .cake, .beer, .pub, .friends, .livemusic, .map, .hours, .address {
 	width: 50%;
 	margin: 0;
 	position: relative;
 }
 
-.app, .cake {
+.app, .cake, .friends, .pub, .address {
 	float: left;
 }
 
-.food, .beer {
+.food, .beer, .livemusic, .map, .hours {
 	float: right;
 }
 
@@ -171,22 +171,6 @@ a:hover {
 .special, .directions, .us {
 overflow: hidden;
 clear: both;
-}
-
-.friends, .pub {
-	float: left;
-}
-
-.livemusic {
-	float: right;
-}
-
-.map {
-	float: right;
-}
-
-.hours {
-	float: right;
 }
 
 figcaption {
