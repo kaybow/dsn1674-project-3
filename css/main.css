@@ -168,7 +168,7 @@ a:hover {
 	transform: translateX(-50%);
 }
 
-.special, .directions {
+.special, .directions, .us {
 overflow: hidden;
 clear: both;
 }
@@ -179,10 +179,6 @@ clear: both;
 
 .livemusic {
 	float: right;
-}
-
-.us {
-	overflow: hidden;
 }
 
 .map {
