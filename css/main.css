@@ -141,7 +141,7 @@ a:hover {
 	padding: 0;
 }
 
-.app, .food, .cake, .beer, .pub, .friends, .livemusic, .map {
+.app, .food, .cake, .beer, .pub, .friends, .livemusic, .map, .hours {
 	width: 50%;
 	margin: 0;
 	position: relative;
@@ -168,12 +168,12 @@ a:hover {
 	transform: translateX(-50%);
 }
 
-.special {
+.special, .directions {
 overflow: hidden;
 clear: both;
 }
 
-.friends {
+.friends, .pub {
 	float: left;
 }
 
@@ -186,6 +186,10 @@ clear: both;
 }
 
 .map {
+	float: right;
+}
+
+.hours {
 	float: right;
 }
 
