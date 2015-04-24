@@ -59,7 +59,7 @@ h2 {
 }
 
 .banner {
-	padding: calc(0.5em + 20vw) 0 0;
+	padding: 3em;
 	background: url("../images/banner.jpg") center center / cover no-repeat;
 }
 
@@ -131,7 +131,7 @@ a:hover {
 }
 
 .wood {
-	padding: calc(0.5em + 20vw) 0 0;
+	padding: 5em;
 	background: url("../images/wood.jpg") center center / cover no-repeat;
 }
 
