@@ -185,7 +185,8 @@ figcaption {
 
 footer {
 	margin: 0;
-	padding: 2em;
+	padding: 5em;
+	text-align: center;
 	background: url("../images/wood.jpg") center center / cover no-repeat;
 }
 
@@ -202,6 +203,5 @@ footer {
 	padding: 1em;
 	border-radius: 25px;
 	text-decoration: none;
-	left: 35%;
-	transform: translateX(-35%);
+	top: 2.75em;
 }
